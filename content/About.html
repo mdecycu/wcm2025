@@ -69,6 +69,7 @@
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPowerShell.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushWbt.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
@@ -130,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='WCMS.html'>WCMS</a><li><a href='Vmware.html'>Vmware</a><li><a href='AI.html'>AI</a></li></ul><li><a href='Summary.html'>Summary</a><li class='has-children'><a href='WebApp.html'>WebApp</a><ul class='dropdown'><li><a href='Topics.html'>Topics</a></li></ul><li><a href='Control.html'>Control</a><li class='has-children'><a href='Ref.html'>Ref</a><ul class='dropdown'><li><a href='Old.html'>Old</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='WCMS.html'>WCMS</a><li><a href='Vmware.html'>Vmware</a><li><a href='AI.html'>AI</a></li></ul><li><a href='Summary.html'>Summary</a><li><a href='WebApp.html'>WebApp</a><li class='has-children'><a href='Ref.html'>Ref</a><ul class='dropdown'><li><a href='Old.html'>Old</a></li></ul><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -159,21 +160,27 @@ img.add_border {
 <p style="padding-left: 30px;">以 "學號@nfu.edu.tw" 登入<span> </span><a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a><span> </span>Office 365</p>
 <p style="padding-left: 30px;">Teams 團隊代碼: <span>87b7bbx</span></p>
 <p>課程評分:</p>
-<p style="padding-left: 30px;"><span style="background-color: #ccffcc;">出席並參與討論 (30%)</span></p>
-<p style="padding-left: 30px;"><span style="background-color: #ccffcc;">期中協同專案執行、簡報與報告 (三人一組) (30%)</span></p>
-<p style="padding-left: 60px;">專案題目: 修改並配置 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</p>
-<p style="padding-left: 90px;">配置一台可供各組登入使用的 Ubuntu 實體或虛擬伺服器</p>
-<p style="padding-left: 90px;">利用 nginx 配置 www 伺服器, 用於部署 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> 以及分組學員的靜態網頁</p>
-<p style="padding-left: 90px;">利用 uwsgi 配置分組學員執行動態內容管理系統編輯</p>
-<p style="padding-left: 30px;"><span style="background-color: #ccffcc;">期末協同專案執行、簡報與報告 (三人一組) (40%)</span></p>
-<p style="padding-left: 60px;"><span>專案題目: CoppeliaSim 與 Webots 虛實整合六方投籃機系統 - Web 端程式建置 (與 <a href="https://mde.tw/cd2025">https://mde.tw/cd2025</a> 同步進行)<br/></span></p>
-<p style="padding-left: 90px;"><span>配置一台可以讓至多六名使用者參與的 Web 投籃機線上遊戲</span></p>
-<p style="padding-left: 120px;"><span>CoppeliaSim 場景 https 伺服器配置</span></p>
-<p style="padding-left: 120px;">各客戶端與伺服器間的認證系統配置</p>
+<p style="padding-left: 30px;">1. 作業 (40%): 從 Github Classroom 取得的個人倉儲與網站, 每週必須至少提交 2 次與課程進度有關的內容.</p>
+<p style="padding-left: 60px;">作業一 (20%): 採用 <a href="https://nginx.org/">nginx</a> 建立全球資訊網伺服器</p>
+<p style="padding-left: 90px;">在 Windows 操作系統中建立一台 WWW 伺服器</p>
+<p style="padding-left: 90px;">在 Ubuntu 操作系統建立一台 WWW 伺服器</p>
+<p style="padding-left: 90px;">在 虛擬主機上建立一台 WWW 伺服器 (Windows and Ubuntu)</p>
+<p style="padding-left: 120px;">Virtualbox</p>
+<p style="padding-left: 120px;">Vmware <a href="https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/">最近宣布</a>適用於 Windows 及 Linux 的 Vmware Workstation Pro (<a href="https://docs.vmware.com/en/VMware-Workstation-Pro/17.6/rn/vmware-workstation-176-pro-release-notes/index.html">17.6</a>), 與適用於 MacOS 的 Vmware Fusion Pro 全面免費.</p>
+<p style="padding-left: 120px;"><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro">下載 Vmware Workstation Pro</a> (For Windows and Linux) - 註冊帳號後下載 VMware-workstation-full-17.6.2.exe</p>
+<p style="padding-left: 120px;"><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">下載 Vmware Fusion Pro</a> (For Mac) - 註冊帳號後下載</p>
+<p style="padding-left: 60px;">作業二 (20%): 在各種不同環境下的操作系統中配置 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</p>
+<p style="padding-left: 30px;">2. 期中協同專案執行、簡報與報告 (三人一組) (30%)</p>
+<p style="padding-left: 60px;">專案題目: 利用 Copilot 解析 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</p>
+<p style="padding-left: 30px;">3. 期末協同專案執行、簡報與報告 (三人一組) (30%)</p>
+<p style="padding-left: 60px;"><span>專案題目: 網際內容管理架構下的 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)<br/></span></p>
+<p style="padding-left: 90px;">利用 uwsgi 配置分組學員執行 cmsimde 動態內容管理系統編輯</p>
+<p style="padding-left: 90px;">設法將 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>) 與 cmsimde 網際內容管理系統整合</p>
 <hr/>
 <p>行事曆</p>
 <p><a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei"> 全頁檢視 </a></p>
-<p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p><br /> <a href='WCMS.html'>Next</a> >> WCMS</div>
+<p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p>
+<br /> <a href='WCMS.html'>Next</a> >> WCMS</div>
         
     <!-- footer -->
       <div class="container">
