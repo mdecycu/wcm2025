@@ -97,10 +97,11 @@
 <h1>Portable</h1>
 <p>以下將說明如何自行在 Windows 操作系統中建立可攜 Python 程式系統.</p>
 <p><a href="/downloads/gen_portable_python_and_get_pip.7z">gen_portable_python_and_get_pip.7z</a></p>
-<p>目前最新的 Python 版本為 3.13.2, 可以利用舊版的 Python310 (為何配合 Siemens NX2312) 以下列程式建立一套基本的 Python313 可攜程式套件:</p>
+<p>目前最新的 Python 版本為 3.13.2, 可以利用舊版的 Python310 (為了配合 Siemens NX2312), 以下列程式碼建立一套基本的 Python313 可攜程式套件:</p>
 <ol>
 <li>利用舊版的 Python310 可攜套件執行 <a href="/downloads/gen_3.13.2_portable.py">gen_3.13.2_portable.py</a>, 就可以建立最基本的 Python 3.13.2 系統目錄, 在此命名為 Python313.</li>
-<li>接著將此 Python313 目錄放入舊可攜 Python 程式系統的 Y:\ 之後, 以此目錄名稱取代舊有的 Python 目錄名稱, 建立一個新的 start_python313_ipv6.bat, 然後用此批次檔案啟動可攜系統.</li>
+<li>接著將此 Python313 目錄放入舊可攜 Python 程式系統的 Y:\ 之後, 以此目錄名稱取代舊有 start.bat 檔案中的 Python 目錄名稱, 建立一個新的 start_python313.bat, 然後用此批次檔案啟動可攜系統.</li>
+<li>啟動基本的 Python 3.13.2 可攜套件後, 在命令列中以 python get-pip.py 安裝 pip 工具.</li>
 <li>為了能夠執行 cmsimde 動態網站, 在命令列執行 pip install flask flask_cors bs4 lxml pelican markdown, 安裝啟動 cmsimde 所需的 Python 模組.</li>
 <li>至此所得到的 Python313 目錄容量約為 170MB, 壓縮為 <a href="/downloads/Python313.7z.001">Python313.7z.001</a>, <a href="/downloads/Python313.7z.002">Python313.7z.002</a>, <a href="/downloads/Python313.7z.003">Python313.7z.003</a> 與 <a href="/downloads/Python313.7z.004">Python313.7z.004</a> 等四個檔案.</li>
 </ol>
