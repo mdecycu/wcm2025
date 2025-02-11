@@ -113,7 +113,7 @@ if PLAT_GTK
 if PLAT_MAC
 	python.command=python</pre>
 <p>也就是使用當下所設定的 pythonw.exe 而非指定到特定舊版本的 pythonw.exe, 例如: Y:\Python310\pythonw.exe</p><h1>Summary</h1>
-<p><object data="/images/wcm2025.svg" height="1213" type="image/svg+xml" width="1486"></object></p>
+<p><object data="/images/wcm2025.svg" height="1358" type="image/svg+xml" width="1488"></object></p>
 <p><a href="https://mdecycu.github.io/mind-map/#/?fileURL=https://mde.tw/wcm2025/downloads/wcm2025.smm">Edit wcm2025.smm</a></p><h1>WebApp</h1>
 <p>網際應用程式 - <a href="https://en.wikipedia.org/wiki/Web_application">Web Application</a></p>
 <p style="padding-left: 30px;">A web application (or web app) is application software that is created with web technologies and runs via a web browser. Web applications emerged during the late 1990s and allowed for the server to dynamically build a response to the request, in contrast to static web pages.</p>
@@ -128,13 +128,34 @@ if PLAT_MAC
 <p>內容管理系統將以 <a href="https://mde.tw/reeborg/docs">https://mde.tw/reeborg/docs</a> 為例.</p>
 <p>與 Server 端結合的網際內容管理將採 <a href="https://nginx.org">nginx</a> 與 <a href="https://flask.palletsprojects.com/en/stable/">Flask</a></p>
 <p>課程摘要流程圖: <a href="https://mde.tw/mind-map">https://mde.tw/mind-map</a></p>
-<h1>Ref</h1>
+<h1>Reeborg</h1>
+<p>Reeborg 原始碼: <a href="https://github.com/mdecycu/reeborg">https://github.com/mdecycu/reeborg</a></p>
+<p>從 <a href="https://github.com/mdecycu/reeborg/blob/29804c116903082bf25c1b7d87edb31d17b2a74e/world.html">world.html</a> 可以發現使用 Brython 3.2.4, 釋出時間 2016.01, 而 2015.06 為 ECMAScript 6 釋出時間, 因此判定 Reeborg 所使用的 Javascript 語法大多為 ECMAScript version 5.</p>
+<p>執行 Reeborg 最簡單的方式:</p>
+<ol>
+<li>啟動可攜程式環境</li>
+<li>cd tmp</li>
+<li>git clone <a href="https://github.com/mdecycu/reeborg.git">https://github.com/mdecycu/reeborg.git</a></li>
+<li>cd reeborg</li>
+<li>python -m http.server</li>
+<li>然後使用瀏覽器連結至 <a href="http://localhost:8000/world.html">http://localhost:8000/world.html</a></li>
+</ol>
+<p>On world.html, 設定選擇 Editor:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">    &lt;select id="python_choices" title="Select programming mode"&gt;
+        &lt;option value="blockly"&gt;Blockly&lt;/option&gt;
+        &lt;option value="editor" selected&gt;Editor&lt;/option&gt;
+        &lt;option value="repl"&gt;Interpreter&lt;/option&gt;</pre>
+<p>Reeborg 原始碼所使用的 Javascript 語法請參考下列參考資料:</p>
+<p style="padding-left: 30px;"><a href="https://dev.to/martyhimmel/series/156">ECMAScript 5 教學</a></p>
+<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-1787-0">2015 Javascript Object Programming</a> (<a href="http://229.cycu.org/2015_JavaScript_Object_Programming.pdf">local download</a>)</p>
+<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4302-6494-1">2015 JavaScript Quick Syntax Reference</a> (<a href="http://229.cycu.org/2015_javascript_quick_syntax_reference.pdf">local download</a>)</p>
+<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4302-6392-0">2015 Pro Javascript Techniques</a> (<a href="http://229.cycu.org/2015_pro_javascript_techniques.pdf">local download</a>)</p>
+<p></p><h1>Reference</h1>
 <p><a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> 利用 Template 建立多樣的靜態網站內容</p>
 <p><a href="https://github.com/mdecycu/reeborg">https://github.com/mdecycu/reeborg</a> 原始碼研究, 升級其 Brython 版本以及相關 Javascript 程式庫</p>
 <p style="padding-left: 30px;"><a href="https://mde.tw/reeborg/">https://mde.tw/reeborg/</a></p>
 <p>整理舊資料: <a href="https://github.com/coursemdetw">https://github.com/coursemdetw</a></p>
-<p><a href="https://coursemdetw.github.io/creo2primer">https://coursemdetw.github.io/creo2primer</a> learn how to write a CAD tutorial book</p>
-<h2>Old</h2>
+<p><a href="https://coursemdetw.github.io/creo2primer">https://coursemdetw.github.io/creo2primer</a> learn how to write a CAD tutorial book</p><h2>Old</h2>
 <p>以下連結僅能在系統主幹網路的 IPv6 協定下擷取:</p>
 <p style="padding-left: 30px;">有關<a href="http://wcm.cycu.org:88/github/wcm2019/content/%E4%BB%A3%E7%90%86%E4%B8%BB%E6%A9%9F%E8%A8%AD%E5%AE%9A.html">代理主機設定</a></p>
 <p style="padding-left: 30px;">有關<a href="http://wcm.cycu.org:88/github/wcm2019/content/%E5%85%A8%E7%90%83%E5%8D%94%E5%90%8C.html">全球協同</a></p>
