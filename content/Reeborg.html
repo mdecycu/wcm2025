@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='WCMS.html'>WCMS</a><li><a href='Vmware.html'>Vmware</a><li><a href='AI.html'>AI</a></li></ul><li><a href='Portable.html'>Portable</a><li><a href='Summary.html'>Summary</a><li><a href='WebApp.html'>WebApp</a><li><a href='Reeborg.html'>Reeborg</a><li class='has-children'><a href='Reference.html'>Reference</a><ul class='dropdown'><li><a href='Old.html'>Old</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='Summary.html'>Summary</a><li><a href='WCMS.html'>WCMS</a><li><a href='WebApp.html'>WebApp</a><li><a href='Vmware.html'>Vmware</a><li><a href='AI.html'>AI</a></li></ul><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='Portable.html'>Portable</a><li><a href='VM.html'>VM</a><li><a href='Copilot.html'>Copilot</a><li><a href='cmsimde.html'>cmsimde</a></li></ul><li><a href='Reeborg.html'>Reeborg</a><li class='has-children'><a href='Reference.html'>Reference</a><ul class='dropdown'><li><a href='Old.html'>Old</a></li></ul><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -142,10 +142,19 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">WebApp << <a href='WebApp.html'>Previous</a> <a href='Reference.html'>Next</a> >> Reference<br /><h1>Reeborg</h1>
-<p>Reeborg 原始碼: <a href="https://github.com/mdecycu/reeborg">https://github.com/mdecycu/reeborg</a></p>
-<p>從 <a href="https://github.com/mdecycu/reeborg/blob/29804c116903082bf25c1b7d87edb31d17b2a74e/world.html">world.html</a> 可以發現使用 Brython 3.2.4, 釋出時間 2016.01, 而 2015.06 為 ECMAScript 6 釋出時間, 因此判定 Reeborg 所使用的 Javascript 語法大多為 ECMAScript version 5.</p>
-<p>執行 Reeborg 最簡單的方式:</p>
+    <div id="tipue_search_content">cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Reference.html'>Next</a> >> Reference<br /><h1>Reeborg</h1>
+<h4>建立開發用的 Reeborg 倉儲:</h4>
+<p>因為 <a href="https://github.com/aroberge/reeborg">https://github.com/aroberge/reeborg</a> 原始碼的使用授權允許延伸應用, 因此進行如下處理:</p>
+<ol>
+<li>在 Github 建立一個空的倉儲, 名稱設為 reeborg.</li>
+<li>git clone --recurse-submodules <a href="https://github.com/aroberge/reeborg.git">https://github.com/aroberge/reeborg.git</a> rb, 表示暫時將可能帶有子模組 (其實並沒有) 的倉儲取下, 放入 rb 目錄中.</li>
+<li>cd rb 後, 執行 git remote add rb <a href="mailto:git@your_putty_session:your_github_account/reeborg.git">git@your_putty_session:your_github_account/reeborg.git</a></li>
+<li>然後利用 git push rb, 將帶有所有提交歷程記錄的倉儲送到原本為空的 reeborg.</li>
+<li>此一 Reeborg 原始碼的倉儲就位於 <a href="https://github.com/mdecycu/reeborg">https://github.com/mdecycu/reeborg</a></li>
+<li>取下新建立的 reeborg 開發倉儲後, 將 reeborg.js 放入 rb 目錄, 並取原先的 reeborg_offline.html 作為 index.html, 放入 acp 與 acp.bat 後將內建 branch 改為 main, 提交變更後再設定 Github Pages, 完成 <a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> 的開發設定.</li>
+<li>除了目前多語言版本外, 也可以<a href="https://github.com/mdecycu/reeborg/tree/e5742fbbfb915cecb9c078bc45f44d722d6a118d">回到 2016.02.03 的穩定版本</a>.</li>
+</ol>
+<h4>利用 Python 內建伺服器執行 Reeborg:</h4>
 <ol>
 <li>啟動可攜程式環境</li>
 <li>cd tmp</li>
@@ -154,11 +163,6 @@ img.add_border {
 <li>python -m http.server</li>
 <li>然後使用瀏覽器連結至 <a href="http://localhost:8000/world.html">http://localhost:8000/world.html</a></li>
 </ol>
-<p>On world.html, 設定選擇 Editor:</p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">    &lt;select id="python_choices" title="Select programming mode"&gt;
-        &lt;option value="blockly"&gt;Blockly&lt;/option&gt;
-        &lt;option value="editor" selected&gt;Editor&lt;/option&gt;
-        &lt;option value="repl"&gt;Interpreter&lt;/option&gt;</pre>
 <p>Reeborg 原始碼所使用的 Javascript 語法請參考下列參考資料:</p>
 <p style="padding-left: 30px;"><a href="https://dev.to/martyhimmel/series/156">ECMAScript 5 教學</a></p>
 <p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-1787-0">2015 Javascript Object Programming</a> (<a href="http://229.cycu.org/2015_JavaScript_Object_Programming.pdf">local download</a>)</p>
@@ -166,7 +170,8 @@ img.add_border {
 <p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4302-6392-0">2015 Pro Javascript Techniques</a> (<a href="http://229.cycu.org/2015_pro_javascript_techniques.pdf">local download</a>)</p>
 <p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-2235-5">2016 Beyond JQuery</a> (<a href="http://229.cycu.org/2016_beyond_jquery.pdf">local download</a>)</p>
 <p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-9250-1">2023 The Absolute Beginner's Guide to HTML and CSS</a> (<a href="http://229.cycu.org/2023_beginner_goude_css_html.pdf">local download</a>)</p>
-<p></p><br />WebApp << <a href='WebApp.html'>Previous</a> <a href='Reference.html'>Next</a> >> Reference</div>
+<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-9783-4">2023 Creating Responsive Websites Using HTML5 and CSS3</a> (<a href="http://229.cycu.org/2023_Creating_Responsive_Websites_HTML5_CSS3.pdf">local download</a>)</p>
+<p></p><br />cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Reference.html'>Next</a> >> Reference</div>
         
     <!-- footer -->
       <div class="container">
