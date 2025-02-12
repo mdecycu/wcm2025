@@ -2,7 +2,7 @@
         <head>
         <title>wcm2025</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
@@ -142,11 +142,53 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">WebApp << <a href='WebApp.html'>Previous</a> <a href='AI.html'>Next</a> >> AI<br /><h1>Vmware</h1>
-<p>Vmware <a href="https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/">最近宣布</a>適用於 Windows 及 Linux 的 Vmware Workstation Pro (<a href="https://docs.vmware.com/en/VMware-Workstation-Pro/17.6/rn/vmware-workstation-176-pro-release-notes/index.html">17.6</a>), 與適用於 MacOS 的 Vmware Fusion Pro 全面免費.</p>
-<p><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro">下載 Vmware Workstation Pro</a> (For Windows and Linux) - 註冊帳號後下載 VMware-workstation-full-17.6.2.exe</p>
-<p><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">下載 Vmware Fusion Pro</a> (For Mac) - 註冊帳號後下載</p>
-<br />WebApp << <a href='WebApp.html'>Previous</a> <a href='AI.html'>Next</a> >> AI</div>
+    <div id="tipue_search_content">Portable << <a href='Portable.html'>Previous</a> <a href='VM.html'>Next</a> >> VM<br /><h1>Javascript</h1>
+<p><a href="https://dev.to/martyhimmel/javascript-es5---getting-started-5980">教材一</a></p>
+<p>在任何一個網頁, 利用滑鼠右鍵帶出小視窗, 然後選擇"檢測", 再點選"主控台", 輸入"alert("Hello, Javascript") 後按下 Enter, 就會跳出一個小視窗列出 "Hello, Javascript". 這個意思是, 網頁瀏覽器中就自帶有 Javascript 的解譯器.</p>
+<p>接下來, 假如你已經建立好了隨身碟中的可攜程式環境: <a href="http://229.cycu.org/portable_wcm2025.7z">portable_wcm2025.7z</a>, 同時也取得 wcm2025 課程所配置的學員作業倉儲, 你就可以直接在編輯動態網頁的同時, 開啟該頁面的 Source Code (也就是該頁面的 HTML 超文件內容), 並將下列 Javascript 程式放入超文件中, 存檔後點選編輯區下方的"viewpage"按鈕, 就可以從"主控台"看到程式執行結果:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;script&gt;
+console.log("顯示在主控台 - 紀錄區的內容")
+&lt;/script&gt;</pre>
+<p>假如編輯網頁中的 HTML 原始碼再加入下列程式段, 就可以在網頁中利用 &lt;script type="text/python"&gt;&lt;/script&gt;, 以 Python 語法建立程式, 而這種程式是經由採 Javascript 編寫的 <a href="https://brython.info/">Brython</a> 解譯器轉為 Javascript 後, 直接在網頁中執行:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;!-- 導入 brython 程式庫 --&gt;
+&lt;p&gt;
+&lt;script src="./../cmsimde/static/brython.js"&gt;&lt;/script&gt;
+&lt;script src="./../cmsimde/static/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- 啟動 Brython --&gt;
+&lt;p&gt;
+&lt;script&gt;
+window.onload=function(){
+brython({debug:1, pythonpath:['./../cmsimde/static/','./../downloads/py/']});
+}
+&lt;/script&gt;
+&lt;script type="text/python"&gt;
+print("從 Brython 執行後看到的結果")
+&lt;/script&gt;</pre>
+<p>從上面這個範例, 可以看出較長的 Javascript 程式, 並不是直接寫在網頁上, 而是儲存在 WWW 伺服器中的特定位置後, 然後在網頁中導入執行, 例如這個範例中的 brython.js.</p>
+<p>另外, 由於 cmsimde 網際內容管理系統程式設計的問題, 動態網頁與靜態網頁引用 Javascript 程式路徑的方式不同, 初學者必須特別注意. 下列程式就是利用 Brython 編寫的網頁版貪食蛇遊戲, 利用滑鼠按下"啟動"就可以執行, 按下"暫停"程式就會暫時停止執行.</p>
+<div id="brython_div2"></div>
+<script>
+console.log("顯示在主控台 - 紀錄區的內容")
+</script>
+<!-- 導入 brython 程式庫 -->
+<p>
+<script src="./../cmsimde/static/brython.js"></script>
+<script src="./../cmsimde/static/brython_stdlib.js"></script>
+</p>
+<!-- 啟動 Brython -->
+<p>
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['./../cmsimde/static/','./../downloads/py/']});
+}
+</script>
+<script type="text/python">
+print("從 Brython 執行後看到的結果")
+</script>
+</p>
+<script src="https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/kmol_snakey.py" type="text/python">
+</script><br />Portable << <a href='Portable.html'>Previous</a> <a href='VM.html'>Next</a> >> VM</div>
         
     <!-- footer -->
       <div class="container">
