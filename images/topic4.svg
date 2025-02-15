@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="689.5" height="108" style="background-color: rgb(241, 241, 241);"><title>topic4</title><g class="smm-container" transform="matrix(1,0,0,1,-947,-445.5)"><g class="smm-line-container"><path d="M 1434,499.5L 1466.4,499.5L 1466.4,477.5Q 1466.4,472.5 1471.4,472.5L 1488,472.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none" opacity="1" style=""></path><path d="M 1434,499.5L 1466.4,499.5L 1466.4,522Q 1466.4,527 1471.4,527L 1488,527" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1118,499.5L 1180.4,499.5L 1180.4,499.5L 1222,499.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path></g><g class="smm-outer-frame-container"></g><g class="smm-node-container"><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,960,477.5)"><path d="
+      M10,0
+      L93,0
+      C93,0 103,0 103,10
+      L103,32
+      C103,32 103,42 93,42
+      L10,42
+      C10,42 0,42 0,32
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#1e3556" stroke-dasharray="none" stroke-width="2" stroke="#bdc5c9"></path><g transform="matrix(1,0,0,1,16,6)"><g data-width="73" data-height="32" data-offsetx="0" opacity="1"><foreignObject width="73" height="32" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="
+      color: #fff;
+      font-family: 微软雅黑, Microsoft YaHei;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: none
+    ">根节点</span></p></div><style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style></foreignObject></g></g><rect width="109" height="48" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,960,477.5)"><path d="
+      M10,0
+      L146,0
+      C146,0 156,0 156,10
+      L156,32
+      C156,32 156,42 146,42
+      L10,42
+      C10,42 0,42 0,32
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#1e3556" stroke-dasharray="none" stroke-width="2" stroke="#bdc5c9"></path><g transform="matrix(1,0,0,1,16,6)"><g data-width="126" data-height="32" data-offsetx="0" opacity="1"><foreignObject width="126" height="32" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><strong style="color: rgb(255, 255, 255);font-family: 微软雅黑, Microsoft YaHei;font-size: 24px;">4. 期中專案</strong></p></div></foreignObject></g></g><rect width="162" height="48" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1222,481.5)" opacity="1"><path d="
+      M10,0
+      L200,0
+      C200,0 210,0 210,10
+      L210,24
+      C210,24 210,34 200,34
+      L10,34
+      C10,34 0,34 0,24
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#a9dada" stroke-dasharray="none" stroke-width="2" stroke="#1e3556"></path><rect fill="transparent" width="20" height="36" x="212" y="0"></rect><g transform="matrix(1,0,0,1,16,6)"><g data-width="180" data-height="24" data-offsetx="0" opacity="1"><foreignObject width="180" height="24" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, Microsoft YaHei; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">Copilot and Reeborg</span></p></div></foreignObject></g></g><rect width="216" height="40" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1488,457)" opacity="1"><path d="
+      M5,0
+      L95,0
+      C95,0 100,0 100,5
+      L100,25
+      C100,25 100,30 95,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,14.5,5.5)"><g data-width="50" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="50" height="19" x="0" y="0.5"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">Copilot</span></p></div></foreignObject></g><svg width="20" height="20" x="52" y="0"><title>Github Copilot</title><a xlink:href="https://github.com/copilot" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#1e3556"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="105" height="35" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1488,512)"><path d="
+      M5,0
+      L83,0
+      C83,0 88,0 88,5
+      L88,24
+      C88,24 88,29 83,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="58" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="58" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">Reeborg</span></p></div></foreignObject></g></g><rect width="93" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g></g><g class="smm-associative-line-container"></g><g class="smm-other-container"></g></g><style>
+  /* 鼠标hover和激活时渲染的矩形 */
+  .smm-hover-node{
+    display: none;
+    opacity: 0.6;
+    stroke-width: 1;
+  }
+
+  .smm-node:not(.smm-node-dragging):hover .smm-hover-node{
+    display: block;
+  }
+
+  .smm-node.active .smm-hover-node, .smm-node-highlight .smm-hover-node{
+    display: block;
+    opacity: 1;
+    stroke-width: 2;
+  }
+
+  .smm-text-node-wrap {
+    user-select: none;
+  }
+
+      .smm-richtext-node-wrap {
+        word-break: break-all;
+        user-select: none;
+      }
+
+      .smm-richtext-node-wrap p {
+        font-family: auto;
+      }
+      </style></svg>

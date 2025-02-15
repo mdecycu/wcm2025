@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="766.5" height="772" style="background-color: rgb(241, 241, 241);"><title>topic2</title><g class="smm-container" transform="matrix(1,0,0,1,-947,-113.5)"><g class="smm-line-container"><path d="M 1321,646L 1353.4,646L 1353.4,623.5Q 1353.4,618.5 1358.4,618.5L 1375,618.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none" opacity="1" style=""></path><path d="M 1321,646L 1353.4,646L 1353.4,668.5Q 1353.4,673.5 1358.4,673.5L 1375,673.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none" opacity="1" style=""></path><path d="M 1100,499.5L 1162.4,499.5L 1162.4,307Q 1162.4,302 1167.4,302L 1204,302" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1100,499.5L 1162.4,499.5L 1162.4,536Q 1162.4,541 1167.4,541L 1204,541" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1100,499.5L 1162.4,499.5L 1162.4,641Q 1162.4,646 1167.4,646L 1204,646" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1100,499.5L 1162.4,499.5L 1162.4,798.5Q 1162.4,803.5 1167.4,803.5L 1204,803.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,145Q 1341.4,140 1346.4,140L 1363,140" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,199Q 1341.4,194 1346.4,194L 1363,194" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,253Q 1341.4,248 1346.4,248L 1363,248" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,302L 1363,302" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,351Q 1341.4,356 1346.4,356L 1363,356" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,405Q 1341.4,410 1346.4,410L 1363,410" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1309,302L 1341.4,302L 1341.4,459Q 1341.4,464 1346.4,464L 1363,464" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1326,803.5L 1358.4,803.5L 1358.4,753.5Q 1358.4,748.5 1363.4,748.5L 1380,748.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1326,803.5L 1358.4,803.5L 1358.4,803.5L 1380,803.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path><path d="M 1326,803.5L 1358.4,803.5L 1358.4,853.5Q 1358.4,858.5 1363.4,858.5L 1380,858.5" stroke-dasharray="none" stroke-width="2" stroke="#1e3556" fill="none"></path></g><g class="smm-outer-frame-container"></g><g class="smm-node-container"><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,960,477.5)"><path d="
+      M10,0
+      L93,0
+      C93,0 103,0 103,10
+      L103,32
+      C103,32 103,42 93,42
+      L10,42
+      C10,42 0,42 0,32
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#1e3556" stroke-dasharray="none" stroke-width="2" stroke="#bdc5c9"></path><g transform="matrix(1,0,0,1,16,6)"><g data-width="73" data-height="32" data-offsetx="0" opacity="1"><foreignObject width="73" height="32" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="
+      color: #fff;
+      font-family: 微软雅黑, Microsoft YaHei;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: none
+    ">根节点</span></p></div><style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style></foreignObject></g></g><rect width="109" height="48" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,960,477.5)"><path d="
+      M10,0
+      L128,0
+      C128,0 138,0 138,10
+      L138,32
+      C138,32 138,42 128,42
+      L10,42
+      C10,42 0,42 0,32
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#1e3556" stroke-dasharray="none" stroke-width="2" stroke="#bdc5c9"></path><g transform="matrix(1,0,0,1,16,6)"><g data-width="108" data-height="32" data-offsetx="0" opacity="1"><foreignObject width="108" height="32" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><strong style="color: rgb(255, 255, 255);font-family: 微软雅黑, Microsoft YaHei;font-size: 24px;">2. WWW</strong></p></div></foreignObject></g></g><rect width="144" height="48" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1204,284)" opacity="1"><path d="
+      M10,0
+      L93,0
+      C93,0 103,0 103,10
+      L103,24
+      C103,24 103,34 93,34
+      L10,34
+      C10,34 0,34 0,24
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#a9dada" stroke-dasharray="none" stroke-width="2" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15,6)"><g data-width="53" data-height="24" data-offsetx="0" opacity="1"><foreignObject width="53" height="24" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, Microsoft YaHei; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">HTML</span></p></div></foreignObject></g><svg width="20" height="20" x="55" y="2"><title>Creating Responsive Websites Using HTML5 and CSS3</title><a xlink:href="https://link.springer.com/book/10.1007/978-1-4842-9783-4" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#ffffff"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="109" height="40" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><rect fill="transparent" width="20" height="36" x="105" y="0"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1204,523)" opacity="1"><path d="
+      M10,0
+      L74,0
+      C74,0 84,0 84,10
+      L84,24
+      C84,24 84,34 74,34
+      L10,34
+      C10,34 0,34 0,24
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#a9dada" stroke-dasharray="none" stroke-width="2" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15,6)"><g data-width="34" data-height="24" data-offsetx="0" opacity="1"><foreignObject width="34" height="24" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, Microsoft YaHei; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">CSS</span></p></div></foreignObject></g><svg width="20" height="20" x="36" y="2"><title>The Absolute Beginner's Guide to HTML and CSS </title><a xlink:href="https://link.springer.com/book/10.1007/978-1-4842-9250-1" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#ffffff"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="90" height="40" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1204,628)" opacity="1"><path d="
+      M10,0
+      L105,0
+      C105,0 115,0 115,10
+      L115,24
+      C115,24 115,34 105,34
+      L10,34
+      C10,34 0,34 0,24
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#a9dada" stroke-dasharray="none" stroke-width="2" stroke="#1e3556"></path><rect fill="transparent" width="20" height="36" x="117" y="0"></rect><g transform="matrix(1,0,0,1,16,6)"><g data-width="85" data-height="24" data-offsetx="0" opacity="1"><foreignObject width="85" height="24" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, Microsoft YaHei; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">Javascript</span></p></div></foreignObject></g></g><rect width="121" height="40" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1375,603)" opacity="1"><path d="
+      M5,0
+      L190,0
+      C190,0 195,0 195,5
+      L195,25
+      C195,25 195,30 190,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,14.5,5.5)"><g data-width="145" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="145" height="19" x="0" y="0.5"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">ES5 Free Online book</span></p></div></foreignObject></g><svg width="20" height="20" x="147" y="0"><title>配合 Reeborg 使用 ES5</title><a xlink:href="https://exploringjs.com/es5/" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#1e3556"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="200" height="35" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1375,658)" opacity="1"><path d="
+      M5,0
+      L131,0
+      C131,0 136,0 136,5
+      L136,25
+      C136,25 136,30 131,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,14.5,5.5)"><g data-width="86" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="86" height="19" x="0" y="0.5"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">ES5 十個主題</span></p></div></foreignObject></g><svg width="20" height="20" x="88" y="0"><title>Introduction to Javascript (ES5)</title><a xlink:href="https://dev.to/martyhimmel/javascript-es5---getting-started-5980" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#1e3556"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="141" height="35" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1204,785.5)" opacity="1"><path d="
+      M10,0
+      L110,0
+      C110,0 120,0 120,10
+      L120,24
+      C120,24 120,34 110,34
+      L10,34
+      C10,34 0,34 0,24
+      L0,10
+      C0,10 0,0 10,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#a9dada" stroke-dasharray="none" stroke-width="2" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15,6)"><g data-width="70" data-height="24" data-offsetx="0" opacity="1"><foreignObject width="70" height="24" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, Microsoft YaHei; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">Brython</span></p></div></foreignObject></g><svg width="20" height="20" x="72" y="2"><title>Brython Github 倉儲</title><a xlink:href="https://github.com/brython-dev/brython" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#ffffff"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="126" height="40" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><rect fill="transparent" width="20" height="36" x="122" y="0"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,125)"><path d="
+      M5,0
+      L57,0
+      C57,0 62,0 62,5
+      L62,24
+      C62,24 62,29 57,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="32" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="32" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">html</span></p></div></foreignObject></g></g><rect width="67" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,179)"><path d="
+      M5,0
+      L73,0
+      C73,0 78,0 78,5
+      L78,24
+      C78,24 78,29 73,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="48" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="48" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">anchor</span></p></div></foreignObject></g></g><rect width="83" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,233)"><path d="
+      M5,0
+      L68,0
+      C68,0 73,0 73,5
+      L73,24
+      C73,24 73,29 68,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="43" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="43" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">image</span></p></div></foreignObject></g></g><rect width="78" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,287)"><path d="
+      M5,0
+      L47,0
+      C47,0 52,0 52,5
+      L52,24
+      C52,24 52,29 47,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="22" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="22" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">div</span></p></div></foreignObject></g></g><rect width="57" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,341)"><path d="
+      M5,0
+      L72,0
+      C72,0 77,0 77,5
+      L77,24
+      C77,24 77,29 72,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="47" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="47" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">button</span></p></div></foreignObject></g></g><rect width="82" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,395)"><path d="
+      M5,0
+      L59,0
+      C59,0 64,0 64,5
+      L64,24
+      C64,24 64,29 59,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="34" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="34" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">form</span></p></div></foreignObject></g></g><rect width="69" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1363,449)"><path d="
+      M5,0
+      L68,0
+      C68,0 73,0 73,5
+      L73,24
+      C73,24 73,29 68,29
+      L5,29
+      C5,29 0,29 0,24
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,15.5,5.5)"><g data-width="43" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="43" height="19" x="0" y="0"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">object</span></p></div></foreignObject></g></g><rect width="78" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1380,733)"><path d="
+      M5,0
+      L95,0
+      C95,0 100,0 100,5
+      L100,25
+      C100,25 100,30 95,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,14.5,5.5)"><g data-width="50" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="50" height="19" x="0" y="0.5"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">BSnake</span></p></div></foreignObject></g><svg width="20" height="20" x="52" y="0"><title>BSnake</title><a xlink:href="https://mde.tw/wcm2025/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/kmol_snakey.py" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#1e3556"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="105" height="35" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1380,788)"><path d="
+      M5,0
+      L100,0
+      C100,0 105,0 105,5
+      L105,25
+      C105,25 105,30 100,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,14.5,5.5)"><g data-width="55" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="55" height="19" x="0" y="0.5"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">AI Tetris</span></p></div></foreignObject></g><svg width="20" height="20" x="57" y="0"><title>AI Tetris</title><a xlink:href="https://mde.tw/wcm2025/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/pygame_to_brython_tetris_ai.py" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#1e3556"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="110" height="35" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" style="cursor: default;" transform="matrix(1,0,0,1,1380,843)"><path d="
+      M5,0
+      L85,0
+      C85,0 90,0 90,5
+      L90,25
+      C90,25 90,30 85,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0.5,0.5)" fill="transparent" stroke-dasharray="none" stroke-width="1" stroke="#1e3556"></path><g transform="matrix(1,0,0,1,14.5,5.5)"><g data-width="40" data-height="19" data-offsetx="0" opacity="1"><foreignObject width="40" height="19" x="0" y="0.5"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p><span style="color: rgb(30, 53, 86);font-family: 微软雅黑, Microsoft YaHei;font-size: 14px;">Gears</span></p></div></foreignObject></g><svg width="20" height="20" x="42" y="0"><title>Gears</title><a xlink:href="https://mde.tw/wcm2025/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/cango_three_gears_brython_div2.py" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg t="1624174958075" class="icon" viewBox="0 0 1024 1024" p-id="7982" width="20" height="20" fill="#1e3556"><path d="M435.484444 251.733333v68.892445L295.822222 320.682667a168.504889 168.504889 0 0 0-2.844444 336.952889h142.506666v68.892444H295.822222a237.397333 237.397333 0 0 1 0-474.794667h139.662222z m248.945778 0a237.397333 237.397333 0 0 1 0 474.851556H544.654222v-69.006222l139.776 0.056889a168.504889 168.504889 0 0 0 2.844445-336.952889H544.597333V251.676444h139.776z m-25.827555 203.946667a34.474667 34.474667 0 0 1 0 68.892444H321.649778a34.474667 34.474667 0 0 1 0-68.892444h336.952889z" p-id="7983"></path></svg></a></svg></g><rect width="95" height="35" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g></g><g class="smm-associative-line-container"></g><g class="smm-other-container"></g></g><style>
+  /* 鼠标hover和激活时渲染的矩形 */
+  .smm-hover-node{
+    display: none;
+    opacity: 0.6;
+    stroke-width: 1;
+  }
+
+  .smm-node:not(.smm-node-dragging):hover .smm-hover-node{
+    display: block;
+  }
+
+  .smm-node.active .smm-hover-node, .smm-node-highlight .smm-hover-node{
+    display: block;
+    opacity: 1;
+    stroke-width: 2;
+  }
+
+  .smm-text-node-wrap {
+    user-select: none;
+  }
+
+      .smm-richtext-node-wrap {
+        word-break: break-all;
+        user-select: none;
+      }
+
+      .smm-richtext-node-wrap p {
+        font-family: auto;
+      }
+      </style></svg>
