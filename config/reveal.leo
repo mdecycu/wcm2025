@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
-<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
+<!-- Created by Leo: https://leo-editor.github.io/leo-editor/leo_toc.html -->
+<leo_file xmlns:leo="https://leo-editor.github.io/leo-editor/namespaces/leo-python-editor/1.1" >
 <leo_header file_format="2"/>
 <globals/>
 <preferences/>
@@ -12,7 +12,7 @@
 </v>
 <v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
 <v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
-<v t="leo.20220314205802.1"><vh>@clean index.html</vh>
+<v t="leo.20220314205802.1"><vh>@clean index_backup.html</vh>
 <v t="leo.20220314205802.2"><vh>html</vh>
 <v t="leo.20220314205802.3"><vh>head</vh></v>
 <v t="leo.20220314205802.4"><vh>body</vh>
@@ -62,6 +62,27 @@
 <v t="leo.20220314205802.45"><vh>slide 29</vh></v>
 <v t="leo.20220314205802.46"><vh>slide 30</vh></v>
 <v t="leo.20220314205802.47"><vh>slide 31</vh></v>
+</v>
+</v>
+</v>
+</v>
+</v>
+</v>
+</v>
+<v t="leo.20250218220336.1"><vh>編輯 reveal</vh>
+<v t="leo.20250218220336.2"><vh>@path ./../reveal</vh>
+<v t="leo.20250218220336.3"><vh>@clean index.html</vh>
+<v t="leo.20250218220336.4"><vh>html</vh>
+<v t="leo.20250218220336.5"><vh>head</vh></v>
+<v t="leo.20250218220336.6"><vh>body</vh>
+<v t="leo.20250218220336.7"><vh>reveal div</vh>
+<v t="leo.20250218220336.8"><vh>slides div</vh>
+<v t="leo.20250218220336.9"><vh>front page</vh></v>
+<v t="leo.20250218220336.10"><vh>Week1 frontpage</vh>
+<v t="leo.20250218220336.11"><vh>Week1</vh></v>
+<v t="leo.20250218220336.12"><vh>Week1-1</vh></v>
+</v>
+<v t="leo.20250218220336.14"><vh>Week2</vh></v>
 </v>
 </v>
 </v>
@@ -645,6 +666,104 @@ console.log( '"customevent" has fired' );
 <t tx="leo.20220314205802.9">&lt;!-- Example of nested vertical slides --&gt;
 &lt;section&gt;
     @others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20250218220336.1"></t>
+<t tx="leo.20250218220336.10">&lt;section&gt;
+    @others
+&lt;/section&gt;</t>
+<t tx="leo.20250218220336.11">&lt;section&gt;
+    &lt;h2&gt;Week1&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://mde.tw/wcm2025"&gt;課程網站&lt;/a&gt;簡介&lt;/li&gt;
+        &lt;li&gt;學員領取 hw 倉儲&lt;/li&gt;
+        &lt;li&gt;自選組員 3 人一組&lt;/li&gt;
+        &lt;li&gt;Week3 領取分組倉儲&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=month&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei"&gt;課程行事曆&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20250218220336.12">&lt;section&gt;
+    &lt;h2&gt;Week1-1&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://mde.tw/wcm2025/content/Summary.html"&gt;課程內容簡介&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;下載或&lt;a href="https://mde.tw/wcm2025/content/Portable.html"&gt;自行建立&lt;/a&gt;可攜環境&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://mde.tw/wcm2025_hw"&gt;學員作業網站&lt;/a&gt;簡介&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20250218220336.14">&lt;section&gt;
+    &lt;h2&gt;Week2&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;第二週&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20250218220336.2"></t>
+<t tx="leo.20250218220336.3">@language xml
+@tabwidth -4
+@others</t>
+<t tx="leo.20250218220336.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+@others
+&lt;/html&gt;</t>
+<t tx="leo.20250218220336.5">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+
+    &lt;title&gt;wcm_reveal&lt;/title&gt;
+
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+    &lt;link rel="stylesheet" href="dist/reset.css"&gt;
+    &lt;link rel="stylesheet" href="dist/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="dist/theme/black.css" id="theme"&gt;
+
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"&gt;
+&lt;/head&gt;</t>
+<t tx="leo.20250218220336.6">&lt;body&gt;
+@others
+    &lt;script src="dist/reveal.js"&gt;&lt;/script&gt;
+    &lt;script src="plugin/zoom/zoom.js"&gt;&lt;/script&gt;
+    &lt;script src="plugin/notes/notes.js"&gt;&lt;/script&gt;
+    &lt;script src="plugin/search/search.js"&gt;&lt;/script&gt;
+    &lt;script src="plugin/markdown/markdown.js"&gt;&lt;/script&gt;
+    &lt;script src="plugin/highlight/highlight.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+        });
+
+    &lt;/script&gt;
+&lt;/body&gt;</t>
+<t tx="leo.20250218220336.7">&lt;div class="reveal"&gt;
+    @others
+&lt;/div&gt;</t>
+<t tx="leo.20250218220336.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+    @others
+&lt;/div&gt;</t>
+<t tx="leo.20250218220336.9">&lt;section&gt;
+    &lt;a href="https://mde.tw"&gt;
+        &lt;img src="./../images/kmol_1172x340_color_3yrs.png" alt="kmolab logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
+    &lt;/a&gt;
+    &lt;h3&gt;wcm2025 網際內容管理&lt;/h3&gt;
+    &lt;p&gt;
+        &lt;small&gt;Created by &lt;a href="http://mde.tw"&gt;KMOLab&lt;/a&gt;&lt;/small&gt;
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
