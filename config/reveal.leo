@@ -677,17 +677,17 @@ console.log( '"customevent" has fired' );
     &lt;h2&gt;Week1&lt;/h2&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href="https://mde.tw/wcm2025"&gt;課程網站&lt;/a&gt;簡介&lt;/li&gt;
-        &lt;li&gt;學員領取 hw 倉儲&lt;/li&gt;
+        &lt;li&gt;為何使用 Git and Github?&lt;/li&gt;
+        &lt;li&gt;學員領取 hw 倉儲 (是否都擁有 Github 帳號?)&lt;/li&gt;
         &lt;li&gt;自選組員 3 人一組&lt;/li&gt;
         &lt;li&gt;Week3 領取分組倉儲&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=month&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei"&gt;課程行事曆&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20250218220336.12">&lt;section&gt;
     &lt;h2&gt;Week1-1&lt;/h2&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href="https://mde.tw/wcm2025/content/Summary.html"&gt;課程內容簡介&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;下載或&lt;a href="https://mde.tw/wcm2025/content/Portable.html"&gt;自行建立&lt;/a&gt;可攜環境&lt;/li&gt;
+        &lt;li&gt;下載或&lt;a href="https://mde.tw/wcm2025/content/Portable.html"&gt;自行利用舊版 Python 建立&lt;/a&gt;可攜環境&lt;/li&gt;
         &lt;li&gt;&lt;a href="https://mde.tw/wcm2025_hw"&gt;學員作業網站&lt;/a&gt;簡介&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/section&gt;</t>
