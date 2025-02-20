@@ -2,7 +2,7 @@
         <head>
         <title>wcm2025</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
@@ -142,11 +142,34 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">WebApp << <a href='WebApp.html'>Previous</a> <a href='AI.html'>Next</a> >> AI<br /><h1>Vmware</h1>
-<p>Vmware <a href="https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/">最近宣布</a>適用於 Windows 及 Linux 的 Vmware Workstation Pro (<a href="https://docs.vmware.com/en/VMware-Workstation-Pro/17.6/rn/vmware-workstation-176-pro-release-notes/index.html">17.6</a>), 與適用於 MacOS 的 Vmware Fusion Pro 全面免費.</p>
-<p><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro">下載 Vmware Workstation Pro</a> (For Windows and Linux) - 註冊帳號後下載 VMware-workstation-full-17.6.2.exe</p>
-<p><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">下載 Vmware Fusion Pro</a> (For Mac) - 註冊帳號後下載</p>
-<br />WebApp << <a href='WebApp.html'>Previous</a> <a href='AI.html'>Next</a> >> AI</div>
+    <div id="tipue_search_content">Git << <a href='Git.html'>Previous</a> <a href='Summary.html'>Next</a> >> Summary<br /><h1>W1</h1>
+<p>git 指令與 github 倉儲練習:</p>
+<p>點選 C:\ 中舊版的可攜程式中的 start_ipv6.bat</p>
+<p>啟動之後, 在其中一個命令列式視窗中執行下列指令:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">Y:\&gt;cd tmp
+
+Y:\tmp&gt;mkdir w1
+
+Y:\tmp&gt;cd w1
+
+Y:\tmp\w1&gt;git init</pre>
+<p>上列指令第一行是利用 cd 更換目錄指令, 將工作目錄從 Y 槽的根目錄更換到 tmp 目錄, cd 是 change directory 的意思<br/><br/></p>
+<p>第二行則利用 mkdir 建立 w1 目錄, mkdir 是 make directory 的意思</p>
+<p>第三行再利用 cd 將目錄更換到 w1</p>
+<p>第四行則在 w1 目錄中執行 git init 指令, 表示已經可以在可攜程式搜尋路徑中執行 portablegit 中的 git.exe, 並要求執行 init, 也就是 initialize 的意思, 將此目錄起始作為 git 倉儲, 執行 git init 之後, git 會在 w1 目錄中建立一個 .git 目錄, 其中帶有 git 所需的設定檔案與存放版本資料的資料架構.</p>
+<p>將 w1 目錄設定為 git 倉儲目錄之後, 就可以在 w1 目錄中儲存檔案, 每次改版或重要改版階段完成之後, 可以再利用 git 指令對改版內容進行: 新增 - 提交 - 推送等流程, 版本新增指令為 git add, 提交為 git commit, 而推送則為 git push</p>
+<p>git add 指令會將改版的資料放入暫存區, 準備進行提交, 而提交過程需要綁定修改者的資訊, 最後推送則需要推送者連通至遠端系統間的認證資訊. 實際操作指令如下:</p>
+<p>git add .</p>
+<p>git commit -m "提交訊息"</p>
+<p>git push</p>
+<p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先註記使用者帳號:</p>
+<p>git config --global user.name "your github account"</p>
+<p>接著註記電子郵箱:</p>
+<p>git config --global user.email "your email"</p>
+<p>上面所執行的 git config 因為額外設定 --global, 因此會將設定內容存入可攜系統的 home_ipv6 目錄中, 設定檔案的名稱為 .gitconfig</p>
+<p>接下來, 為了要將近端 git 倉儲推向 github.com, 必須先登入 github.com, 然後建立一個完全空白的倉儲, 之後再執行下列指令:</p>
+<p></p>
+<p></p><br />Git << <a href='Git.html'>Previous</a> <a href='Summary.html'>Next</a> >> Summary</div>
         
     <!-- footer -->
       <div class="container">
