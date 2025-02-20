@@ -45,30 +45,43 @@
 <p>為什麼要使用<span style="background-color: #ffff00;">分散式版次管理系統</span>來管理數位檔案?</p>
 <p>如何使用<span style="background-color: #ffff00;">分散式版次管理系統</span>管理數位檔案?</p>
 <h3>W1</h3>
-<p>git 指令與 github 倉儲練習:</p>
+<h4><span style="background-color: #ffff00;">git 指令與 github 倉儲練習:</span></h4>
 <p>點選 C:\ 中舊版的可攜程式中的 start_ipv6.bat</p>
 <p>啟動之後, 在其中一個命令列式視窗中執行下列指令:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">Y:\&gt;cd tmp
-
 Y:\tmp&gt;mkdir w1
-
 Y:\tmp&gt;cd w1
-
 Y:\tmp\w1&gt;git init</pre>
-<p>上列指令第一行是利用 cd 更換目錄指令, 將工作目錄從 Y 槽的根目錄更換到 tmp 目錄, cd 是 change directory 的意思<br/><br/></p>
+<p>上列指令第一行是利用 cd 更換目錄指令, 將工作目錄從 Y 槽的根目錄更換到 tmp 目錄, cd 是 change directory 的意思</p>
 <p>第二行則利用 mkdir 建立 w1 目錄, mkdir 是 make directory 的意思</p>
 <p>第三行再利用 cd 將目錄更換到 w1</p>
 <p>第四行則在 w1 目錄中執行 git init 指令, 表示已經可以在可攜程式搜尋路徑中執行 portablegit 中的 git.exe, 並要求執行 init, 也就是 initialize 的意思, 將此目錄起始作為 git 倉儲, 執行 git init 之後, git 會在 w1 目錄中建立一個 .git 目錄, 其中帶有 git 所需的設定檔案與存放版本資料的資料架構.</p>
 <p>將 w1 目錄設定為 git 倉儲目錄之後, 就可以在 w1 目錄中儲存檔案, 每次改版或重要改版階段完成之後, 可以再利用 git 指令對改版內容進行: 新增 - 提交 - 推送等流程, 版本新增指令為 git add, 提交為 git commit, 而推送則為 git push</p>
 <p>git add 指令會將改版的資料放入暫存區, 準備進行提交, 而提交過程需要綁定修改者的資訊, 最後推送則需要推送者連通至遠端系統間的認證資訊. 實際操作指令如下:</p>
-<p>git add .</p>
-<p>git commit -m "提交訊息"</p>
-<p>git push</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git add .
+git commit -m "提交訊息"
+git push</pre>
 <p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先註記使用者帳號:</p>
 <p>git config --global user.name "your github account"</p>
 <p>接著註記電子郵箱:</p>
 <p>git config --global user.email "your email"</p>
-<p>上面所執行的 git config 因為額外設定 --global, 因此會將設定內容存入可攜系統的 home_ipv6 目錄中, 設定檔案的名稱為 .gitconfig</p><h2>Summary</h2>
+<p>上面所執行的 git config 因為額外設定 --global, 因此會將設定內容存入可攜系統的 home_ipv6 目錄中, 設定檔案的名稱為 .gitconfig</p>
+<p>接下來, 為了要將近端 git 倉儲推向 github.com, 必須先登入 github.com, 然後建立一個完全空白的倉儲, 之後再執行下列指令:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git branch -M main
+git remote add origin git@session_name:github_account/w2.git
+git push -u origin main</pre>
+<p>上列指令的第一行必須在 w1 目錄中執行, 表示要將主分支的名稱設為 main.</p>
+<p>第二行則針對此倉儲建立一個遠端對應名稱 origin, 其遠端網址為隨後的網址, 若此時要使用 SSH 連線, 且已經設定好電腦登錄資料庫中的 session_name, 且登入 github.com 的帳號名稱為 github_account, 則此遠端倉儲的網址設定為: <a href="mailto:git@session_name:github_account/w2.git">git@session_name:github_account/w2.git</a></p>
+<p>意思是: 採 SSH 認證時, 必須採 git 作為遠端登入 github.com 的共同帳號, 然後根據隨後的 session_name 找到對應的連線網址 (此時是 github.com), SSH 協定近端的 key 位置, 以及是否需要使用 proxy 設定等資訊.</p>
+<p>執行 git remote add 指令後, 此一資訊會寫入 w1 倉儲中 .git 目錄中的 config 檔案中.</p>
+<p>上列指令的最後一行則是用 origin 代表遠端倉儲的網址, 然後將此網址的 main 分支設為之後 git push 指令的內定分支, 也就使用了 git push 指令中的 -u 設定, 此 u 代表 upstream, 也就是設定完成後, git 會將此設定寫入倉儲 .git/config  檔案中, 將 remote origin 中的 main 分支作為本地分支的上游.</p>
+<p>換句話說, 執行 git push -u origin main 指令時, Git 會在 w1 倉儲中的 .git/config 檔案中寫入追蹤分支的相關資訊. 也就是會在 .git/config 檔案中的 [branch "main"] 區塊加入 remote 和 merge 設定, 讓近端 w1 倉儲的 main 分支與遠端倉儲 origin 上的 main 分支進行串接. .git/config 檔案中寫入的內容如下:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">[branch "main"]
+    remote = origin
+    merge = refs/heads/main</pre>
+<p><br/>SSH 使用設定:</p>
+<p>在 Windows 操作系統中可以採用 Putty 設定 SSH 協定認證過程中, 登錄至 Github key server 中所需的 OpenSSH 格式鑰匙 (此鑰匙稱為 public key, 也可以將其視為進入 github.com 門上的鎖頭, 因為大家從外面就可以看得到), 另外 Putty 建立 public key 同時, 在近端可以儲存與公鑰認證對應的 private key, 也就是私鑰, 而此私鑰的格式則是 Putty 特有的檔案格式, 因此存為 .ppk, 也就是 putty private key 的意思.</p>
+<p>通常在帶有還原卡的電腦上工作, 此把私鑰會存在隨身碟中, 並在啟動可攜程式環境之後, 將私鑰相關設定的 session 透過 .reg 檔案存回 Windows 操作系統的登錄檔案中.</p><h2>Summary</h2>
 <p><object data="/images/wcm2025.svg" height="1523" type="image/svg+xml" width="1488"></object></p>
 <p><a href="https://mdecycu.github.io/mind-map/#/?fileURL=https://mde.tw/wcm2025/downloads/wcm2025.smm">Edit wcm2025.smm</a></p><h2>WCMS</h2>
 <p>Intro to WCMS:</p>
