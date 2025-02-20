@@ -46,8 +46,11 @@
 <p>如何使用<span style="background-color: #ffff00;">分散式版次管理系統</span>管理數位檔案?</p>
 <h3>W1</h3>
 <h4><span style="background-color: #ffff00;">git 指令與 github 倉儲練習:</span></h4>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p>以下練習將利用電腦輔助設計室中 C: 既有的可攜程式環境, 在近端建立一個 git 倉儲, 然後與 Github 上空白的倉儲進行對應. 完成後使用者可在多個地點將 Github 上的倉儲以 git clone 取下進行改版. 當近端某一舊倉儲版本落後 Github 上倉儲版本時, 則可利用 git pull 取下遠端新增的版本資料後繼續改版. 完成後再新增提交推送至 Github 倉儲.</p>
 <p>練習步驟:</p>
+=======
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 <p>點選 C:\ 中舊版的可攜程式中的 start_ipv6.bat</p>
 <p>啟動之後, 在其中一個命令列式視窗中執行下列指令:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">Y:\&gt;cd tmp
@@ -63,22 +66,34 @@ Y:\tmp\w1&gt;git init</pre>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git add .
 git commit -m "提交訊息"
 git push</pre>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先在可攜系統中設定使用者帳號:</p>
+=======
+<p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先註記使用者帳號:</p>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 <p>git config --global user.name "your github account"</p>
 <p>接著設定電子郵箱:</p>
 <p>git config --global user.email "your email"</p>
 <p>上面所執行的 git config 因為額外加入 --global, 因此會將設定內容存入可攜系統的 home_ipv6 目錄中, 設定檔案的名稱為 .gitconfig</p>
 <p>接下來, 為了要將近端 git 倉儲推向 github.com, 必須先登入 github.com, 然後建立一個完全空白的倉儲, 之後再執行下列指令:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git branch -M main
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 git remote add origin git@session_name:github_account/w1.git
+=======
+git remote add origin git@session_name:github_account/w2.git
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 git push -u origin main</pre>
 <p>上列指令的第一行必須在 w1 目錄中執行, 表示要將主分支的名稱設為 main.</p>
 <p>第二行則針對此倉儲建立一個遠端對應名稱 origin, 其遠端網址為隨後的網址, 若此時要使用 SSH 連線, 且已經設定好電腦登錄資料庫中的 session_name, 且登入 github.com 的帳號名稱為 github_account, 則此遠端倉儲的網址設定為: <a href="mailto:git@session_name:github_account/w2.git">git@session_name:github_account/w2.git</a></p>
 <p>意思是: 採 SSH 認證時, 必須採 git 作為遠端登入 github.com 的共同帳號, 然後根據隨後的 session_name 找到對應的連線網址 (此時是 github.com), SSH 協定近端的 key 位置, 以及是否需要使用 proxy 設定等資訊.</p>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p>執行 git remote add 指令後, 此一資訊會寫入 w1 倉儲中 .git 目錄中的 config 檔案中. 此一指令寫入的資料如下:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">[remote "origin"]
     url = git@session_name:github_account/w1.git
     fetch = +refs/heads/*:refs/remotes/origin/*</pre>
+=======
+<p>執行 git remote add 指令後, 此一資訊會寫入 w1 倉儲中 .git 目錄中的 config 檔案中.</p>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 <p>上列指令的最後一行則是用 origin 代表遠端倉儲的網址, 然後將此網址的 main 分支設為之後 git push 指令的內定分支, 也就使用了 git push 指令中的 -u 設定, 此 u 代表 upstream, 也就是設定完成後, git 會將此設定寫入倉儲 .git/config  檔案中, 將 remote origin 中的 main 分支作為本地分支的上游.</p>
 <p>換句話說, 執行 git push -u origin main 指令時, Git 會在 w1 倉儲中的 .git/config 檔案中寫入追蹤分支的相關資訊. 也就是會在 .git/config 檔案中的 [branch "main"] 區塊加入 remote 和 merge 設定, 讓近端 w1 倉儲的 main 分支與遠端倉儲 origin 上的 main 分支進行串接. .git/config 檔案中寫入的內容如下:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">[branch "main"]
@@ -311,7 +326,7 @@ print("從 Brython 執行後看到的結果")
 <p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-9250-1">2023 The Absolute Beginner's Guide to HTML and CSS</a> (<a href="http://229.cycu.org/2023_beginner_goude_css_html.pdf">local download</a>)</p>
 <p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-9783-4">2023 Creating Responsive Websites Using HTML5 and CSS3</a> (<a href="http://229.cycu.org/2023_Creating_Responsive_Websites_HTML5_CSS3.pdf">local download</a>)</p>
 <h2>walk</h2>
-<p><a href="https://s104.cycu.org/reeborg">https://s104.cycu.org/reeborg</a> 執行下列程式:</p>
+<p><a href="https://s104.cycu.org/reeborg">https://s104.cycu.org/reeborg</a> 在 Other worlds 下方點選 Alone 後, 按下 run 執行下列程式:</p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">for i in range(4):
     for j in range(9):
         move()

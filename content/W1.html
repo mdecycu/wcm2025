@@ -173,6 +173,7 @@ git push -u origin main</pre>
 <p>上列指令的第一行必須在 w1 目錄中執行, 表示要將主分支的名稱設為 main.</p>
 <p>第二行則針對此倉儲建立一個遠端對應名稱 origin, 其遠端網址為隨後的網址, 若此時要使用 SSH 連線, 且已經設定好電腦登錄資料庫中的 session_name, 且登入 github.com 的帳號名稱為 github_account, 則此遠端倉儲的網址設定為: <a href="mailto:git@session_name:github_account/w2.git">git@session_name:github_account/w2.git</a></p>
 <p>意思是: 採 SSH 認證時, 必須採 git 作為遠端登入 github.com 的共同帳號, 然後根據隨後的 session_name 找到對應的連線網址 (此時是 github.com), SSH 協定近端的 key 位置, 以及是否需要使用 proxy 設定等資訊.</p>
+<p></p>
 <p>執行 git remote add 指令後, 此一資訊會寫入 w1 倉儲中 .git 目錄中的 config 檔案中. 此一指令寫入的資料如下:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">[remote "origin"]
     url = git@session_name:github_account/w1.git
