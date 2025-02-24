@@ -18,6 +18,7 @@
 <p style="padding-left: 30px;">以 "學號@nfu.edu.tw" 登入<span> </span><a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a><span> </span>Office 365</p>
 <p style="padding-left: 30px;">Teams 團隊代碼: <span>87b7bbx</span></p>
 <p><span>學員作業網站樣板: <a href="https://mde.tw/wcm2025_hw">https://mde.tw/wcm2025_hw</a> </span></p>
+<p>學員作業範例: <a href="https://mdewcm2025.github.io/hw-scrum1">https://mdewcm2025.github.io/hw-scrum1</a> </p>
 <hr/>
 <p>課程評分:</p>
 <p style="padding-left: 30px;">1. 作業 (40%): 從 Github Classroom 取得的個人倉儲與網站, 每週必須至少提交 2 次與課程進度有關的內容.</p>
@@ -39,18 +40,16 @@
 <hr/>
 <p>行事曆</p>
 <p><a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei"> 全頁檢視 </a></p>
-<p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p><h2>Git</h2>
+<p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p>
+<h2>Git</h2>
 <p>Git (<a href="https://github.com/git/git">原始碼</a>) 是一套<span style="background-color: #ffff00;">分散式版次管理系統</span>工具.</p>
 <p>Github 則是利用 Git 建立的一套基於全球資訊網的<span style="background-color: #ffff00;">分散式版次管理系統</span>.</p>
 <p>為什麼要使用<span style="background-color: #ffff00;">分散式版次管理系統</span>來管理數位檔案?</p>
 <p>如何使用<span style="background-color: #ffff00;">分散式版次管理系統</span>管理數位檔案?</p>
 <h3>W1</h3>
 <h4><span style="background-color: #ffff00;">git 指令與 github 倉儲練習:</span></h4>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p>以下練習將利用電腦輔助設計室中 C: 既有的可攜程式環境, 在近端建立一個 git 倉儲, 然後與 Github 上空白的倉儲進行對應. 完成後使用者可在多個地點將 Github 上的倉儲以 git clone 取下進行改版. 當近端某一舊倉儲版本落後 Github 上倉儲版本時, 則可利用 git pull 取下遠端新增的版本資料後繼續改版. 完成後再新增提交推送至 Github 倉儲.</p>
 <p>練習步驟:</p>
-=======
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 <p>點選 C:\ 中舊版的可攜程式中的 start_ipv6.bat</p>
 <p>啟動之後, 在其中一個命令列式視窗中執行下列指令:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">Y:\&gt;cd tmp
@@ -66,34 +65,23 @@ Y:\tmp\w1&gt;git init</pre>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git add .
 git commit -m "提交訊息"
 git push</pre>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先在可攜系統中設定使用者帳號:</p>
-=======
-<p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先註記使用者帳號:</p>
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 <p>git config --global user.name "your github account"</p>
 <p>接著設定電子郵箱:</p>
 <p>git config --global user.email "your email"</p>
 <p>上面所執行的 git config 因為額外加入 --global, 因此會將設定內容存入可攜系統的 home_ipv6 目錄中, 設定檔案的名稱為 .gitconfig</p>
 <p>接下來, 為了要將近端 git 倉儲推向 github.com, 必須先登入 github.com, 然後建立一個完全空白的倉儲, 之後再執行下列指令:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git branch -M main
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 git remote add origin git@session_name:github_account/w1.git
-=======
-git remote add origin git@session_name:github_account/w2.git
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 git push -u origin main</pre>
 <p>上列指令的第一行必須在 w1 目錄中執行, 表示要將主分支的名稱設為 main.</p>
 <p>第二行則針對此倉儲建立一個遠端對應名稱 origin, 其遠端網址為隨後的網址, 若此時要使用 SSH 連線, 且已經設定好電腦登錄資料庫中的 session_name, 且登入 github.com 的帳號名稱為 github_account, 則此遠端倉儲的網址設定為: <a href="mailto:git@session_name:github_account/w2.git">git@session_name:github_account/w2.git</a></p>
 <p>意思是: 採 SSH 認證時, 必須採 git 作為遠端登入 github.com 的共同帳號, 然後根據隨後的 session_name 找到對應的連線網址 (此時是 github.com), SSH 協定近端的 key 位置, 以及是否需要使用 proxy 設定等資訊.</p>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<p></p>
 <p>執行 git remote add 指令後, 此一資訊會寫入 w1 倉儲中 .git 目錄中的 config 檔案中. 此一指令寫入的資料如下:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">[remote "origin"]
     url = git@session_name:github_account/w1.git
     fetch = +refs/heads/*:refs/remotes/origin/*</pre>
-=======
-<p>執行 git remote add 指令後, 此一資訊會寫入 w1 倉儲中 .git 目錄中的 config 檔案中.</p>
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 91d8bcc434bba23aa359b89b2434e4c62bfa16ae
 <p>上列指令的最後一行則是用 origin 代表遠端倉儲的網址, 然後將此網址的 main 分支設為之後 git push 指令的內定分支, 也就使用了 git push 指令中的 -u 設定, 此 u 代表 upstream, 也就是設定完成後, git 會將此設定寫入倉儲 .git/config  檔案中, 將 remote origin 中的 main 分支作為本地分支的上游.</p>
 <p>換句話說, 執行 git push -u origin main 指令時, Git 會在 w1 倉儲中的 .git/config 檔案中寫入追蹤分支的相關資訊. 也就是會在 .git/config 檔案中的 [branch "main"] 區塊加入 remote 和 merge 設定, 讓近端 w1 倉儲的 main 分支與遠端倉儲 origin 上的 main 分支進行串接. .git/config 檔案中寫入的內容如下:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">[branch "main"]
@@ -101,9 +89,11 @@ git push -u origin main</pre>
     merge = refs/heads/main</pre>
 <p><br/><span style="background-color: #ffff00;">SSH 使用設定:</span></p>
 <p>在 Windows 操作系統中可以採用 Putty 設定 SSH 協定認證過程中, 登錄至 Github key server 中所需的 OpenSSH 格式鑰匙 (此鑰匙稱為 public key, 也可以將其視為進入 github.com 門上的鎖頭, 因為大家從外面就可以看得到), 另外 Putty 建立 public key 同時, 在近端可以儲存與公鑰認證對應的 private key, 也就是私鑰, 而此私鑰的格式則是 Putty 特有的檔案格式, 因此存為 .ppk, 也就是 putty private key 的意思.</p>
-<p>通常在帶有還原卡的電腦上工作, 此把私鑰會存在隨身碟中, 並在啟動可攜程式環境之後, 將私鑰相關設定的 session 透過 .reg 檔案存回 Windows 操作系統的登錄檔案中. 而這個 Putty session 的設定登錄檔案將會被存入 HKEY_CURRENT_USER - SOFTWARE - SimonTatham 中. 因此設定完成後必須將此登錄檔匯出, 並在下一次啟動可攜程式環境時匯入. 若不是在帶有還原卡的電腦上進行設定, 則只需要設定一次便可使用.</p><h2>Summary</h2>
+<p>通常在帶有還原卡的電腦上工作, 此把私鑰會存在隨身碟中, 並在啟動可攜程式環境之後, 將私鑰相關設定的 session 透過 .reg 檔案存回 Windows 操作系統的登錄檔案中. 而這個 Putty session 的設定登錄檔案將會被存入 HKEY_CURRENT_USER - SOFTWARE - SimonTatham 中. 因此設定完成後必須將此登錄檔匯出, 並在下一次啟動可攜程式環境時匯入. 若不是在帶有還原卡的電腦上進行設定, 則只需要設定一次便可使用.</p>
+<h2>Summary</h2>
 <p><object data="/images/wcm2025.svg" height="1523" type="image/svg+xml" width="1488"></object></p>
-<p><a href="https://mdecycu.github.io/mind-map/#/?fileURL=https://mde.tw/wcm2025/downloads/wcm2025.smm">Edit wcm2025.smm</a></p><h2>WCMS</h2>
+<p><a href="https://mdecycu.github.io/mind-map/#/?fileURL=https://mde.tw/wcm2025/downloads/wcm2025.smm">Edit wcm2025.smm</a></p>
+<h2>WCMS</h2>
 <p>Intro to WCMS:</p>
 <p><a href="https://en.wikipedia.org/wiki/Web_content_management_system">Web content management system</a></p>
 <p><a href="https://www.techtarget.com/searchcontentmanagement/definition/web-content-management-WCM">WCM</a></p>
@@ -199,10 +189,12 @@ git push -u origin main</pre>
 <p><a href="https://link.springer.com/book/10.1007/978-1-4302-6392-0">2015 Pro Javascript Techniques</a> (<a href="http://229.cycu.org/2015_pro_javascript_techniques.pdf">local download</a>)</p>
 <p><a href="https://link.springer.com/book/10.1007/978-1-4842-2235-5">2016 Beyond JQuery</a> (<a href="http://229.cycu.org/2016_beyond_jquery.pdf">local download</a>)</p>
 <p><a href="https://link.springer.com/book/10.1007/978-1-4842-9250-1">2023 The Absolute Beginner's Guide to HTML and CSS</a> (<a href="http://229.cycu.org/2023_beginner_goude_css_html.pdf">local download</a>)</p>
-<p><a href="https://link.springer.com/book/10.1007/978-1-4842-9783-4">2023 Creating Responsive Websites Using HTML5 and CSS3</a> (<a href="http://229.cycu.org/2023_Creating_Responsive_Websites_HTML5_CSS3.pdf">local download</a>)</p><h2>Topic1</h2>
+<p><a href="https://link.springer.com/book/10.1007/978-1-4842-9783-4">2023 Creating Responsive Websites Using HTML5 and CSS3</a> (<a href="http://229.cycu.org/2023_Creating_Responsive_Websites_HTML5_CSS3.pdf">local download</a>)</p>
+<h2>Topic1</h2>
 <p>可攜環境與 Github</p>
 <p><object data="/images/topic1.svg" height="885" type="image/svg+xml" width="1357"></object></p>
-<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic1.smm">Edit topic1.smm</a></p><h3>Portable</h3>
+<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic1.smm">Edit topic1.smm</a></p>
+<h3>Portable</h3>
 <p>wcm2025 的 <a href="/downloads/start.bat">start.bat</a>, <a href="/downloads/stop.bat">stop.bat</a>, 在 Edge 顯示非 html 的資料時, 將使用系統編碼顯示 (Big-5), 要正確顯示 start.bat 與 stop.bat 中的 UTF-8 中文, 必須在設定中的預設瀏覽器中允許使用 IE 重新載入網頁, 才能將內建編碼改為 UTF-8.</p>
 <p>以下將說明如何自行在 Windows 操作系統中建立可攜 Python 程式系統.</p>
 <p><a href="/downloads/gen_portable_python_and_get_pip.7z">gen_portable_python_and_get_pip.7z</a></p>
@@ -221,7 +213,8 @@ if PLAT_GTK
 	python.command=python3
 if PLAT_MAC
 	python.command=python</pre>
-<p>也就是使用當下所設定的 pythonw.exe 而非指定到特定舊版本的 pythonw.exe, 例如: Y:\Python310\pythonw.exe</p><h3>Javascript</h3>
+<p>也就是使用當下所設定的 pythonw.exe 而非指定到特定舊版本的 pythonw.exe, 例如: Y:\Python310\pythonw.exe</p>
+<h3>Javascript</h3>
 <p><a href="https://dev.to/martyhimmel/javascript-es5---getting-started-5980">教材一</a></p>
 <p>在任何一個網頁, 利用滑鼠右鍵帶出小視窗, 然後選擇"檢測", 再點選"主控台", 輸入"alert("Hello, Javascript") 後按下 Enter, 就會跳出一個小視窗列出 "Hello, Javascript". 這個意思是, 網頁瀏覽器中就自帶有 Javascript 的解譯器.</p>
 <p>接下來, 假如你已經建立好了隨身碟中的可攜程式環境: <a href="http://229.cycu.org/portable_wcm2025.7z">portable_wcm2025.7z</a>, 同時也取得 wcm2025 課程所配置的學員作業倉儲, 你就可以直接在編輯動態網頁的同時, 開啟該頁面的 Source Code (也就是該頁面的 HTML 超文件內容), 並將下列 Javascript 程式放入超文件中, 存檔後點選編輯區下方的"viewpage"按鈕, 就可以從"主控台"看到程式執行結果:</p>
@@ -267,13 +260,16 @@ print("從 Brython 執行後看到的結果")
 </script>
 </p>
 <script src="https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/kmol_snakey.py" type="text/python">
-</script><h2>Topic2</h2>
+</script>
+<h2>Topic2</h2>
 <p>WWW 全球資訊網</p>
 <p><object data="/images/topic2.svg" height="772" type="image/svg+xml" width="767"></object></p>
-<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic2.smm">Edit topic2.smm</a></p><h2>Topic3</h2>
+<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic2.smm">Edit topic2.smm</a></p>
+<h2>Topic3</h2>
 <p>Homework</p>
 <p><object data="/images/topic3.svg" height="343" type="image/svg+xml" width="598"></object></p>
-<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic3.smm">Edit topic3.smm</a></p><h3>VM</h3>
+<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic3.smm">Edit topic3.smm</a></p>
+<h3>VM</h3>
 <p>Virtual Machine and WWW servers:</p>
 <p>1. 作業 (40%): 從 Github Classroom 取得的個人倉儲與網站, 每週必須至少提交 2 次與課程進度有關的內容.</p>
 <p style="padding-left: 30px;">作業一 (20%): 採用 <a href="https://nginx.org/">nginx</a> 建立全球資訊網伺服器</p>
@@ -284,19 +280,24 @@ print("從 Brython 執行後看到的結果")
 <p style="padding-left: 90px;">Vmware <a href="https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/">最近宣布</a>適用於 Windows 及 Linux 的 Vmware Workstation Pro (<a href="https://docs.vmware.com/en/VMware-Workstation-Pro/17.6/rn/vmware-workstation-176-pro-release-notes/index.html">17.6</a>), 與適用於 MacOS 的 Vmware Fusion Pro 全面免費.</p>
 <p style="padding-left: 90px;"><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro">下載 Vmware Workstation Pro</a> (For Windows and Linux) - 註冊帳號後下載 VMware-workstation-full-17.6.2.exe</p>
 <p style="padding-left: 90px;"><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">下載 Vmware Fusion Pro</a> (For Mac) - 註冊帳號後下載</p>
-<p style="padding-left: 30px;">作業二 (20%): 在各種不同環境下的操作系統中配置 <span><a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</span></p><h2>Topic4</h2>
+<p style="padding-left: 30px;">作業二 (20%): 在各種不同環境下的操作系統中配置 <span><a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</span></p>
+<h2>Topic4</h2>
 <p>期中專案</p>
 <p><object data="/images/topic4.svg" height="108" type="image/svg+xml" width="690"></object></p>
-<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic4.smm">Edit topic4.smm</a></p><h3>Copilot</h3>
+<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic4.smm">Edit topic4.smm</a></p>
+<h3>Copilot</h3>
 <p>2. 期中協同專案執行、簡報與報告 (三人一組) (30%)</p>
-<p>專案題目: 利用 Copilot 解析 <span><a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</span></p><h2>Topic5</h2>
+<p>專案題目: 利用 Copilot 解析 <span><a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</span></p>
+<h2>Topic5</h2>
 <p>期末專案</p>
 <p><object data="/images/topic5.svg" height="108" type="image/svg+xml" width="729"></object></p>
-<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic5.smm">Edit topic5.smm</a></p><h3>cmsimde</h3>
+<p><a href="https://mde.tw/mind-map/#/?fileURL=https%3A%2F%2Fmde.tw%2Fwcm2025%2Fdownloads%2Ftopic5.smm">Edit topic5.smm</a></p>
+<h3>cmsimde</h3>
 <p>3. 期末協同專案執行、簡報與報告 (三人一組) (30%)</p>
 <p><span>專案題目: 網際內容管理架構下的 <a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)<br/></span></p>
 <p style="padding-left: 30px;">利用 uwsgi 配置分組學員執行 cmsimde 動態內容管理系統編輯</p>
-<p style="padding-left: 30px;">設法將 <span><a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</span> 與 cmsimde 網際內容管理系統整合</p><h1>Reeborg</h1>
+<p style="padding-left: 30px;">設法將 <span><a href="https://mde.tw/reeborg">https://mde.tw/reeborg</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</span> 與 cmsimde 網際內容管理系統整合</p>
+<h1>Reeborg</h1>
 <h4>建立開發用的 Reeborg 倉儲:</h4>
 <p>因為 <a href="https://github.com/aroberge/reeborg">https://github.com/aroberge/reeborg</a> 原始碼的使用授權允許延伸應用, 因此進行如下處理:</p>
 <ol>
@@ -331,7 +332,8 @@ print("從 Brython 執行後看到的結果")
     for j in range(9):
         move()
     turn_left()</pre>
-<p><img alt="" height="400" src="/images/reeborg_walk_alone.gif" width="400"/></p><h1>Reference</h1>
+<p><img alt="" height="400" src="/images/reeborg_walk_alone.gif" width="400"/></p>
+<h1>Reference</h1>
 <p><a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> 利用 Template 建立多樣的靜態網站內容</p>
 <p><a href="https://github.com/mdecycu/reeborg">https://github.com/mdecycu/reeborg</a> 原始碼研究, 升級其 Brython 版本以及相關 Javascript 程式庫</p>
 <p style="padding-left: 30px;"><a href="https://mde.tw/reeborg/">https://mde.tw/reeborg/</a></p>
