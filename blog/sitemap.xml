@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2025-02-24T15:57:18-00:00</lastmod>
+<lastmod>2025-02-24T21:14:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2025-02-24T15:57:18-00:00</lastmod>
+<lastmod>2025-02-24T21:14:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2025-02-24T15:57:18-00:00</lastmod>
+<lastmod>2025-02-24T21:14:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2025-02-24T15:57:18-00:00</lastmod>
+<lastmod>2025-02-24T21:14:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +40,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./2025_wcm_assignment1.html</loc>
-<lastmod>2025-02-24T15:57:13+08:00</lastmod>
+<lastmod>2025-02-24T21:14:38+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,21 +54,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/wcm2025.html</loc>
-<lastmod>2025-02-24T15:57:13+08:06</lastmod>
+<lastmod>2025-02-24T21:14:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/task1.html</loc>
-<lastmod>2025-02-24T15:57:13+08:06</lastmod>
+<lastmod>2025-02-24T21:14:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/wcm2025.html</loc>
-<lastmod>2025-02-24T15:57:13+08:06</lastmod>
+<lastmod>2025-02-24T21:14:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/mdecycu.html</loc>
-<lastmod>2025-02-24T15:57:13+08:06</lastmod>
+<lastmod>2025-02-24T21:14:38+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

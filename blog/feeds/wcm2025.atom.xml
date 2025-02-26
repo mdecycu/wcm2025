@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM2025 網際內容管理 - wcm2025</title><link href="./" rel="alternate"></link><link href="./feeds/wcm2025.atom.xml" rel="self"></link><id>./</id><updated>2025-02-24T15:57:13+08:00</updated><entry><title>網際內容管理任務</title><link href="./2025_wcm_assignment1.html" rel="alternate"></link><published>2025-02-21T11:00:00+08:00</published><updated>2025-02-24T15:57:13+08:00</updated><author><name>mdecycu</name></author><id>tag:None,2025-02-21:./2025_wcm_assignment1.html</id><summary type="html">&lt;p&gt;2025 年網際內容管理的學員指定任務.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM2025 網際內容管理 - wcm2025</title><link href="./" rel="alternate"></link><link href="./feeds/wcm2025.atom.xml" rel="self"></link><id>./</id><updated>2025-02-24T21:14:38+08:00</updated><entry><title>網際內容管理任務</title><link href="./2025_wcm_assignment1.html" rel="alternate"></link><published>2025-02-21T11:00:00+08:00</published><updated>2025-02-24T21:14:38+08:00</updated><author><name>mdecycu</name></author><id>tag:None,2025-02-21:./2025_wcm_assignment1.html</id><summary type="html">&lt;p&gt;2025 年網際內容管理的學員指定任務.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2025 年網際內容管理的學員指定任務.&lt;/p&gt;
 
 
@@ -24,16 +24,17 @@
 vscode、Webots_2025a、wink3 以及 wscite 等目錄. 並自行下載 Process Explorer、Zoomit 以及 solvespace.exe 至新系統的 data 目錄中, 之後利用新系統的 start.bat 啟動可攜, 利用 stop.bat 關閉可攜系統.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1&gt;任務二&lt;/h1&gt;
+&lt;h2&gt;使用 SSH 協定執行作業倉儲的推送&lt;/h2&gt;
+&lt;p&gt;任務二內容請放入 Tasks 頁面下, 標題為 H2 &lt;span style="background-color: #ffff00;"&gt;task2&lt;/span&gt; 的頁面中, 其中必須包括帶有說明字幕的詳細操作影片以及所完成相關檔案下載連結 (請放置在 個人 10GB 容量的 Office 365 OneDrive 系統中後, 在網頁中提供下載連結).&lt;/p&gt;
+&lt;h1&gt;任務三&lt;/h1&gt;
 &lt;h2&gt;使用 Nginx 建立全球資訊網伺服器&lt;/h2&gt;
 &lt;p&gt;任務二內容請放入 Tasks 頁面下, 標題為 H2 &lt;span style="background-color: #ffff00;"&gt;task2&lt;/span&gt; 的頁面中, 其中必須包括帶有說明字幕的詳細操作影片以及所完成相關檔案下載連結 (請放置在 個人 10GB 容量的 Office 365 OneDrive 系統中後, 在網頁中提供下載連結).&lt;/p&gt;
 &lt;h2&gt;HTML 中的 CSS 與 Javascript&lt;/h2&gt;
 &lt;h2&gt;Windows 環境中的 WWW server&lt;/h2&gt;
 &lt;h2&gt;Ubuntu 環境中的 WWW server&lt;/h2&gt;
-&lt;h1&gt;任務三&lt;/h1&gt;
-&lt;h2&gt;配置 Reeborg 網際系統&lt;/h2&gt;
 &lt;h1&gt;任務四&lt;/h1&gt;
+&lt;h2&gt;配置 Reeborg 網際系統&lt;/h2&gt;
 &lt;h2&gt;解析 Reeborg 系統架構&lt;/h2&gt;
-&lt;h1&gt;任務五&lt;/h1&gt;
 &lt;h2&gt;網際內容管理中的 Reeborg&lt;/h2&gt;</content><category term="wcm2025"></category><category term="task1"></category><category term="wcm2025"></category></entry><entry><title>網際內容管理</title><link href="./2025_wcm_w1.html" rel="alternate"></link><published>2025-02-18T11:00:00+08:00</published><updated>2025-02-24T11:36:10+08:00</updated><author><name>mdecycu</name></author><id>tag:None,2025-02-18:./2025_wcm_w1.html</id><summary type="html">&lt;p&gt;2025 年網際內容管理課程並不使用 SolidWorks, 但故事還是得從這個與 Windows 95 一同推出的 MCAD 套件說起......&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2025 年網際內容管理課程並不使用 SolidWorks, 但故事還是得從這個與 Windows 95 一同推出的 MCAD 套件說起......&lt;/p&gt;
 
